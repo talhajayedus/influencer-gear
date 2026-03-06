@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+}
+.inter{
+  font-family: "Inter Tight", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+/*common styles*/
+.display-flex{
+    display:flex;
+}
+.background-color{
+    max-width:1400px;
+    width:100%;
+    margin:0 auto;
+    background-color:#ffffff;
+}
+
+/*navbar related style*/
+.navbar{
+    gap:550px;
+    margin-top:40px;
+    margin-bottom:30px;
+    width:100%;
+
+}
+#brand-name{
+    font-size:1.5rem;
+    font-weight:600;
+    margin-left:50px;
+    
+}
+.list-box{
+   gap:30px;
+}
+.list-item{
+    list-style:none;
+   text-decoration: none;
+   
+}
+.list-item a{
+    text-decoration: none;
+    font-weight:400;
+   font-size:16px;
+   color:#3A3A3A;
+}
+.list-box .list-img{
+    height:10px;
+    width:10px;
+    cursor: pointer;
+ 
+}
+
+/*hero-section related styles*/
+.hero-section{
+    justify-content:center;
+    align-items: center;
+    gap:50px;
+}
+.hero-description h1{
+    font-size:2.7rem;
+    font-weight:700;
+    line-height:50px;
+    color:#3A3A3A;
+    margin-bottom:30px;
+
+}
+.hero-description p{
+    font-size:1.3rem;
+    font-weight:400;
+    line-height:30px;
+    color:#3A3A3A;
+    margin-bottom:30px;
+
+}
+.hero-img{
+    position: relative;
+    
+}
+.circle{
+    width:400px;
+    height:400px;
+   
+}
+.camera-main{
+    width:350px;
+    height:350px;
+    position:absolute;
+    transform: translate(8%, 9.5%);
+    
+    
+}

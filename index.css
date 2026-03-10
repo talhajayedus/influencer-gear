@@ -84,10 +84,11 @@
     height:40px;
     border:none;
     border-radius:20px;
-   
+   cursor: pointer;
 
 }
-.btn-primary img{
+.arrow-right{
+   
    height:20px;
    width:20px;
 }
@@ -129,4 +130,40 @@
     gap:20px;
     justify-content:space-evenly;
     
+}
+/*popular collections related styles*/
+#h2{
+    text-align: center;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+.popular-collection{
+    margin:0 auto;
+    margin-bottom:100px;
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:20px;
+    width:900px; 
+   
+    
+}
+
+.products img{
+    height:250px;
+    width:250px;
+}
+.products h3{
+    color:rgba(24, 25, 31, 1);
+    font-size:1.75rem;
+    font-weight:500;
+}
+.products p{
+    color:rgba(120, 120, 133, 1);
+    font-size:.950rem;
+    font-weight:800;
+}
+.products{
+    padding:20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    border-radius:8px;
 }

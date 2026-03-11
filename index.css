@@ -167,3 +167,72 @@
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     border-radius:8px;
 }
+
+/*blog section related styles*/
+
+.blog-section{
+    width:1100px;
+    margin:0 auto;
+    display:flex;
+    gap:70px;
+    justify-content: space-between;
+    
+}
+.gear-img img{
+    height:250px;
+    width:400px;
+    border-radius:9px;
+}
+.description h1{
+    font-size:2.5rem;
+    font-weight:800;
+    line-height:60px;
+
+}
+.description p{
+    margin-bottom:20px;
+    color:rgba(120, 120, 133, 1);
+    font-size:1.2rem;
+    font-weight:600;
+    line-height:25px;
+    
+}
+
+.btn-secondary{
+    background-color:#E02C6D;
+    color:#ffffff;
+    font-size:1.2rem;
+    width:170px;
+    height:40px;
+    border:none;
+    border-radius:7px;
+    cursor: pointer;
+    
+}
+
+footer{
+    height:140px;
+    margin-top:50px;
+    padding:30px;
+    background-color:rgb(10, 10, 63);
+    text-align: center;
+    gap:10px;
+}
+
+footer div{
+    line-height:1.8;
+    align-items: center;
+    justify-content: center;
+}
+footer div h2{
+    font-size:1.5rem;
+    font-weight:900;
+    color: #ffffff;
+    
+}
+
+footer div p{
+    font-size:0.900rem;
+    font-weight:400;
+    color: #ffffff;
+}
